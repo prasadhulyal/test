@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Registration Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'>
+    <script src='main.js'></script>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-image: url("front back.jpg");
+           
+            background-size: cover;
+            background-position: centre;
+            
+            
+        }
+        .login-box{
+            background-color:lightslategray;
+            width:fit-content;
+           padding-top: 7px;
+           padding-left: 70px;
+           background-position: center;
+           margin-top: 40px;
+           padding-top: 2px;
+           display: inline-block;
+
+        }
+        .col-md-6{
+            padding-top: 15px;
+            margin-left: 25px;
+        }
+       
+        
+    
+    </style>
+</head>
+<body>
+  
+    
+    <div class="container">
+        <div class="login-box">
+            <h2 style="color:purple;"><i>Register Here</i></h2>
+        <div class="row">
+        <form>
+            <div class="form-group">
+                <div class="col-md-6">
+            <label><b>USERNAME:</b></label>
+            <input type="text" name="username" placeholder="Username"  required>
+        </div>
+        <div class="form-group">
+            <div class="col-md-6">
+            <label><b>EMAIL:</b></label>
+            <input type="text" name="email" placeholder="email" required>
+            </div>
+            <div class="form-group">
+                <div class="col-md-6">
+            <label><b>PASSWORD:</b></label>
+            <input type="text" name="password" placeholder="Password" required>
+            </div>
+            <div class="form-group">
+                <div class="col-md-6">
+                <label><b>CPASSWORD:</b></label>
+                <input type="text" name="cpassword" placeholder="Cpassword" required>
+                </div>
+            <div class="col-md-6">
+            <button type="button" name="submit" class="btn btn-primary" style="margin-left: 46px;">Submit</button>
+            <P style="font-size: 15px ;color:saddlebrown;" ><b>Already have an Account ?</b><a href="login.php" style="color:maroon; text-decoration: none; display: block;"><b>Login Here</b> </a></p>
+        </form>
+    </div>
+</div>
+</div>
+</div>
+
+</div>
+
+</body>
+</html>
